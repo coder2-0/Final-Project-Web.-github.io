@@ -1,0 +1,119 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Paragraph styles */
+p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 0 20px;
+    color: #555;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+/* Section styles */
+.resume-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Skill styles */
+ul.resume-section.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.resume-section.skills li {
+    flex: 0 0 48%;
+    margin-right: 4%;
+    margin-bottom: 10px;
+}
+
+/* Experience styles */
+ul.resume-section.experience li {
+    margin-bottom: 20px;
+}
+
+/* Interest styles */
+ul.resume-section.interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.resume-section.interests li {
+    flex: 0 0 48%;
+    margin-right: 4%;
+    margin-bottom: 10px;
+}
+
+/* Contact Me styles */
+.resume-section#contact {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.resume-section#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.resume-section#contact button:hover {
+    background-color: #555;
+}
+
+.resume-section#contactInfo {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Hide content initially */
+.hidden {
+    display: none;
+}
